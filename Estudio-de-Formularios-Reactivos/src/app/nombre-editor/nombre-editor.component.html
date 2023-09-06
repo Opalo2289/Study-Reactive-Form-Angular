@@ -1,0 +1,9 @@
+<h2>Formularios Reactivos</h2>
+
+<div>
+    <label for="name">Name: </label>
+    <input id="name" type="text" [formControl]="name">
+</div>
+<p>value: {{name.value}}</p>
+
+<button type="button" (click)="updateName()">Update Name</button>
