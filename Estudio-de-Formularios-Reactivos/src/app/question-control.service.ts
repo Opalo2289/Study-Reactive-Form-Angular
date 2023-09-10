@@ -17,8 +17,8 @@ export class QuestionControlService {
             : 
             new FormControl(question.value || '');
 
-            return new FormGroup(group)
+        });
 
-        })
+        return new FormGroup(group)
     };
 };
